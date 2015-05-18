@@ -33,10 +33,6 @@ public class HddBench {
 		getHDDbehaviour.getWritingSpeed();
 	}
 
-	/*
-	 * it took me more than an hour to discover how to delete a directory with
-	 * files inside i just hate java from the bottom of my soul
-	 */
 	public static boolean deleteDirectory(File path) {
 		if (path.exists()) {
 			File[] files = path.listFiles();
